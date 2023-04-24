@@ -9,7 +9,19 @@ OSM Plug-in for Gazebo
 	
 
 Dependencies:
-mapnik
+
+	Python 2.7
+
+	Mapnik:
+
+	sudo apt-get install -y python-software-properties
+
+	sudo add-apt-repository ppa:mapnik/v2.2.0
+
+	sudo apt-get update
+
+	sudo apt-get install libmapnik libmapnik-dev mapnik-utils python-mapnik
+
 
 Files:
 
