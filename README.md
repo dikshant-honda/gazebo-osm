@@ -1,26 +1,11 @@
-OSM Plug-in for Gazebo
-	
-	Author: Tashwin Khurana
-	
-	Version: 1.0
-	
-	Description: Open Street Maps plugin for Gazebo
-	             This folder contains files for building osm_plugin for gazebo simulator.
-	
+# gazebo-osm
+### convert the osm files into gazebo worlds
+Contains files for building osm plugin for gazebo simulator
 
 Dependencies:
-
-	Python 2.7
-
-	Mapnik:
-
-	sudo apt-get install -y python-software-properties
-
-	sudo add-apt-repository ppa:mapnik/v2.2.0
-
-	sudo apt-get update
-
-	sudo apt-get install libmapnik libmapnik-dev mapnik-utils python-mapnik
+1. mapnik
+2. ros-noetic
+3. gazebo
 
 
 Files:
