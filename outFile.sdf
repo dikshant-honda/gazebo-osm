@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='ASCII'?>
+<sdf version="1.4">
+  <world name="default">
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>36.0041</latitude_deg>
+      <longitude_deg>139.92371</longitude_deg>
+      <elevation>0.0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <road name="residential_129589004">
+      <width>3</width>
+      <point>112.17351498468032 -35.77421156001665 0.0</point>
+      <point>132.8781532325071 -61.52754066121408 0.0</point>
+      <point>144.7761732668109 -81.49689501151882 0.0</point>
+      <point>154.78395454306434 -103.98488200514079 0.0</point>
+      <point>163.0127568997835 -132.04988193121872 0.0</point>
+      <point>169.2400166581389 -153.1885485058456 0.0</point>
+      <point>177.35759318123 -171.89844107618305 0.0</point>
+      <point>179.8042572408119 -190.0956955282654 0.0</point>
+      <point>189.6791416885606 -222.9909139528779 0.0</point>
+      <point>216.27841933713546 -274.1727485649098 0.0</point>
+      <point>231.95736588408968 -288.56450277589346 0.0</point>
+      <point>263.87107563930573 -310.96130137958284 0.0</point>
+      <point>290.11380594990237 -330.8395264661403 0.0</point>
+      <point>308.9065248500507 -350.8078813140076 0.0</point>
+    </road>
+    <road name="residential_1161963990">
+      <width>3</width>
+      <point>23.906970705727936 -32.83308694064811 0.0</point>
+      <point>55.075006657383604 -52.88357039575303 0.0</point>
+      <point>76.8691950305264 -49.94197193238036 0.0</point>
+      <point>107.31427698619213 -30.56596385565217 0.0</point>
+      <point>112.17351498468032 -35.77421156001665 0.0</point>
+    </road>
+  </world>
+</sdf>
