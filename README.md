@@ -81,3 +81,6 @@ Usage:
 
 	Check the file on gazebo
 		gazebo outFile.sdf
+		
+		
+Reference: https://github.com/osrf/gazebo_osm
